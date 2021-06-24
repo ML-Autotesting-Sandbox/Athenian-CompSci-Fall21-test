@@ -1,11 +1,11 @@
 import pytest
 import src.exercise
 
-inp_1 = []
-out_1 = []
+inp_1 = [2]
+out_1 = [4]
 
-inp_2 = []
-out_2 = []
+inp_2 = [10]
+out_2 = [20]
 
 # run the test function for each input/output pair
 @pytest.mark.parametrize("test_input, expected", [(inp_1, out_1), (inp_2, out_2)])
