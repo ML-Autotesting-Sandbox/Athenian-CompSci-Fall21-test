@@ -13,7 +13,7 @@ def test_capture_stdout(capsys):
     src.exercise.input = mock_input
 
     # Execute the student program, and capture the output (print statements):
-    src.exercise.main()
+    src.exercise.main(5)
     out, err = capsys.readouterr()
 
     # Reformat program output as a list of strings.
