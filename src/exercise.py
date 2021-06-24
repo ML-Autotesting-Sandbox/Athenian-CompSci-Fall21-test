@@ -1,6 +1,5 @@
-def main():
-    # delete the 'pass' statement, then begin coding below:
-    pass
+def main(x):
+    return x*2
 
 
 if __name__ == '__main__': 
